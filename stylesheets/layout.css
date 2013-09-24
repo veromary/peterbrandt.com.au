@@ -26,6 +26,10 @@
     height: auto;
 }
 
+div.right img {
+    float: right;
+}
+
 /* #Media Queries
 ================================================== */
 

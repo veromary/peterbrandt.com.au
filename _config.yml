@@ -2,7 +2,9 @@
 pygments: true
 auto: true
 
-url: http://localhost:4000
+
+#url: http://localhost:4000
+url: http://peterbrandt.com.au
 
 ftp_host: 'ftp.repleatur.net'
 ftp_dir: './'

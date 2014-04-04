@@ -3,16 +3,7 @@ pygments: true
 auto: true
 
 
-#url: http://localhost:4000
-url: http://peterbrandt.com.au
-
-ftp_host: 'ftp.repleatur.net'
-ftp_dir: './'
-ftp_passive: false
-
-# optional
-ftp_port: 21                  # default 21
-ftp_username: 'peter@repleatur.net'     # default read from stdin
-ftp_password: '5w!55c@p' # default read from stdin
+url: http://localhost:4000
+#url: http://peterbrandt.com.au
 
 excerpt_separator: ""

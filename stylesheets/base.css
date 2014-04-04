@@ -93,14 +93,13 @@
 
 
 /* #Links
-================================================== */
 	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
 	a:hover, a:focus { color: #000; }
 	p a, p a:visited { line-height: inherit; }
 
+================================================== */
 
 /* #Lists
-================================================== */
 	ul, ol { margin-bottom: 20px; }
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
@@ -116,6 +115,7 @@
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 
+================================================== */
 /* #Images
 ================================================== */
 

@@ -6,11 +6,10 @@ layout: core
   <h1>{{ page.title }} <small>{{ site.tagline }}</small></h1>
 </div>
 
-
-<ul class="thumbnails">
+<ul class="gallerythumbs">
 {% for pic in page.pictures %}
  <li>
-  <div class="thumbnail">
+  <div class="gallerythumb">
    <a href="http://peterbrandt.com.au/art/tables/worcs/big/{{ pic.bigurl }}" data-lightbox="{{ page.slug }}" title="{{ pic.label }}: {{ pic.caption }}"><img src="{{ pic.url }}" alt="image" /></a>
 
    <h5>{{ pic.label }}</h5>

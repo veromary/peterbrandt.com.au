@@ -1,22 +1,22 @@
 ---
-layout: default
+layout: core
 title: Peter Brandt in Pastel and Charcoal
 ---
-		<div class="sixteen columns">
+		<div class="page-header">
 			<h1 class="remove-bottom" style="margin-top: 40px">Peter Brandt</h1>
 			<h5>custom portraits</h5>
-			<hr />
 		</div>
 
-		<div id="headerImage" class="sixteen columns">
+		<div id="headerImage">
 			<img src="images/ohai.jpg" alt="a cat walking along a street" />
 		</div>
-		<div class="one-third column">
+<div class="row">
+		<div class="col-sm-4">
 			<h3>About Peter</h3>
 			<p>Born in Mona Vale, I have lived on Sydney's northern beaches, inner west, south in Wollongong, north near Brisbane and now live with my family in the Blue Mountains.  I draw people, pets, automobiles, architecture from photos.</p>
 <p>The name <strong>Avalon Prand</strong> was coined to be a unique name for signing up for tumblr.  Avalon in Sydney is where I grew up.  Prand is my Estonian grandfather's surname, that he later germanicised into Brandt.</p>
 		</div>
-		<div class="one-third column">
+		<div class="col-sm-4">
 			<h3>See pictures</h3>
 			<p>Drawings are regularly shared:</p>
 			<ul class="square">
@@ -27,21 +27,30 @@ title: Peter Brandt in Pastel and Charcoal
 			</ul>
 <p>Pictures are hand-drawn charcoal and pastel on fabric. 500 x 700mm, 20" x 28"; ready to frame.</p>
 		</div>
-		<div class="one-third column">
+		<div class="col-sm-4">
 			<h3>Take one home</h3>
 			<p>Many of the drawings you see are available for sale, just ask!  A selection are displayed at <a href="http://avalonprand.etsy.com">avalonprand.etsy.com</a>.  Some for sale on <a href="http://www.ebay.com.au/sch/swissbrandt-au/m.html">ebay</a>.  Prints, cards (and even some t-shirts and stickers) are available at <a href="http://www.redbubble.com/people/swissbrandt">redbubble</a>.</p>
 <p>Send me a photo and I will draw it for you. Email <a href="mailto:hello@peterbrandt.com.au">hello@peterbrandt.com.au</a></p>
 		</div>
-		<div class="sixteen columns">
-<h2>Articles</h2>
-<ul>
+</div>
+		<div class="">
+<ul class="posts">
   {% for post in site.posts %}
-    <li>
-      {{ post.date | date_to_string }} &mdash; <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+  <li class="post">
+    <a href="{{ post.url }}" class="post-link {% if post.cover %}has-cover{% endif %}">
+      {% if post.cover %}
+        <div class="post-cover" style="background-image: url({{ post.cover }});" /></div>
+      {% endif %}
+      <div class="mark"></div>
+      <h3 class="post-title">
+        {{ post.title }}<br />
+      </h3>
+      <span class="meta">Posted <time data-time="{{ post.date }}" title="{{ post.date }}">{{ post.date | date_to_string }}</time></span>
+      <p class="excerpt">{{ post.excerpt | strip_html | strip_newlines }}</p>
+    </a>
+  </li>
   {% endfor %}
 </ul>
-
 </div>
 
 

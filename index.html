@@ -39,7 +39,7 @@ title: Peter Brandt in Pastel and Charcoal
   <li class="post">
     <a href="{{ post.url }}" class="post-link {% if post.cover %}has-cover{% endif %}">
       {% if post.cover %}
-        <div class="post-cover" style="background-image: url({{ post.cover }});" /></div>
+        <div class="post-cover" style="background-image: url({{ site.url }}{{ post.cover }});" /></div>
       {% endif %}
       <div class="mark"></div>
       <h3 class="post-title">

@@ -1,16 +1,15 @@
 ---
-author: minmin
 comments: true
 date: 2014-03-09 09:09:23+00:00
 layout: post
 slug: hello-world
 title: Turning over a new leaf
-wordpress_id: 1
-categories:
-- News
+cover: /images/ds19-300x218.jpg 
 ---
 
+![Citroen DS19 by the Pont Alexandre II]({{ site.url }}/images/ds19-300x218.jpg){:align="right"}
 Hello from the behind the scenes administrator, Veronica!  Tonight I bring you a new webpage for Peter's drawings.  After a while cogitating on how to implement my own custom gallery, I decided to go back to the convenience of Wordpress.
+<!--more-->
 
 Another feature here is some variability with pricing.  If you have ever commissioned a portrait from Peter you're likely to have received the work in record time with the instruction to pay what you think it's worth.
 

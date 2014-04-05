@@ -169,5 +169,10 @@ only screen and (max-device-width : 320px){
     .posts .post-link:hover {
       border: 1px solid #eee;
       box-shadow: 0 0 25px #eee; }
+      .posts .post-link:hover .mark {
+        opacity: 1; }
+      .posts .post-link:hover .post-cover {
+        opacity: .6; }
+
 
 

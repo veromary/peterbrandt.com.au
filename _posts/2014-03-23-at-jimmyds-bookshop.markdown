@@ -6,12 +6,12 @@ layout: post
 slug: at-jimmyds-bookshop
 title: At JimmyD's Bookshop
 cover: /images/fangirl-300x199.jpg
-excerpt: Maybe Springwood's greatest achievement is not its balance between Blue Mountains beauty and easy access from Sydney, or the new civic centre under construction, but the fact that it is home to not one, but three bookshops -
 ---
 
-
-{% include image.html url="/images/fangirl-300x199.jpg" description="Girl with a fan" align="right" %}
-Maybe Springwood's greatest achievement is not its balance between Blue Mountains beauty and easy access from Sydney, or the new civic centre under construction, but the fact that it is home to not one, but three bookshops - [Turning Page](http://www.theturningpagebookshop.com.au/), [Brown Books](http://www.brownbooks.com.au/) and [JimmyD's](http://jimmyds.com.au/). We have found wonderful treasures in each one of them, but JimmyD's is particularly special as they have three of Peter's drawings hanging there.
+{% include image.html url="/images/fangirl-300x199.jpg" align="right" %}
+Maybe Springwood's greatest achievement is not its balance between Blue Mountains beauty and easy access from Sydney, or the new civic centre under construction, but the fact that it is home to not one, but three bookshops - 
+<!--more-->
+[Turning Page](http://www.theturningpagebookshop.com.au/), [Brown Books](http://www.brownbooks.com.au/) and [JimmyD's](http://jimmyds.com.au/). We have found wonderful treasures in each one of them, but JimmyD's is particularly special as they have three of Peter's drawings hanging there.
 
 JimmyD's Bookshop is a treasure trove of second hand books, coffee cups, ecosilk bags, cards and lots of amazing things (teapots in the shape of African animals anybody?). The quotes on the chalkboard out the front gives a daily lift to passers by.
 

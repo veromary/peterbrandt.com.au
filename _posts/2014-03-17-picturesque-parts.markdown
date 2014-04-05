@@ -5,13 +5,11 @@ date: 2014-03-17 01:40:32+00:00
 layout: post
 slug: picturesque-parts
 title: Picturesque Parts
-wordpress_id: 45
-categories:
-- Collections
+cover: /images/nutbolt-300x202.jpg
+excerpt: How about drawing something really niche.  Something that Peter is really passionate about. Like, spark plugs.
 ---
 
-[gallery ids="152,148,29,24,19,15,83,79,155"]
-
+![Nut and bolt]({{ site.url }}/images/nutbolt-300x202.jpg){:align="right"}
 We had a conversation one night, about ideas for drawings.
 
 Peter often draws celebrities, which you might think would be popular.  But it takes all sorts, and celebrities are apt to do crazy things and their reputation rubs off on the picture to some extent.  Public regard for a particular celebrity may wax and wane erratically.

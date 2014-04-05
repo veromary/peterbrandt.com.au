@@ -26,9 +26,9 @@
 
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 
-	<link rel="stylesheet" href="stylesheets/lavish-bootstrap.css">
-	<link rel="stylesheet" href="stylesheets/base.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="{{ site.url }}/stylesheets/lavish-bootstrap.css">
+	<link rel="stylesheet" href="{{ site.url }}/stylesheets/base.css">
+	<link rel="stylesheet" href="{{ site.url }}/stylesheets/layout.css">
 
 <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,9 +41,11 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
+{% if page.lightbox %}
 <!-- Lightbox -->
 
-<link href="stylesheets/lightbox.css" rel="stylesheet" />
+<link href="{{ site.url }}/stylesheets/lightbox.css" rel="stylesheet" />
+{% endif %}
 
 </head>
 <body>

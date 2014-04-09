@@ -7,6 +7,8 @@ cover: /images/matinparlecarrousel.jpg
 ![Matin par le carrousel]({{ site.url }}/images/matinparlecarrousel.jpg){:.floatright}
 You might notice something a little different about the web page today.  The new design is a whole lot simpler.  The "products" are gone. Hopefully this will show that we are less about being a shop and more about, well, about *drawing*.
 
+<!--more-->
+
 Peter has been drawing celebrities because:
 
  1. They look good - the photos are well lit, composed, etc.

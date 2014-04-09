@@ -5,25 +5,16 @@ title: About
 
 ###Who is Peter Brandt?
 
-Born in Mona Vale, I have lived on Sydney's northern beaches, inner west, south in Wollongong, north near Brisbane and now live with my family in the Blue Mountains.  I draw people, pets, automobiles, architecture from photos.
+![Christmas 2013]({{ site.url }}/images/Christmas2013.png){:.floatright}
+Born in Mona Vale, I have lived on Sydney's northern beaches, inner west, south in Wollongong, north near Brisbane and now live with my family in the Blue Mountains.  The photo shows me with wife, four boys, little girl and two guinea pigs (the cat wisely kept out of the way).
 
 The name **Avalon Prand** was coined to be a unique name for signing up for tumblr.  Avalon in Sydney is where I grew up.  Prand is my Estonian grandfather's surname, that he later germanicised into Brandt.
 	
-For those who draw, no explanation is necessary.
-For those who do not draw, no explanation is possible.
+I have always enjoyed drawing, whether in pencil, ink or pastel. For a while I focussed on making bold black and white ink studies and lino cuts.
 
-I know that is a complete cop out.
+My favourite artists include Alfonse Mucha.
 
-What would you like to know?
+I like listening to David Bowie, Yello, Yasuaki Shimizu, They Might Be Giants and many others.  Bach is great too.
 
-Peter has always been drawing in one way or another.  He finds working on a picture satisfying.  
-
-He grew up on Sydney's northern beaches, back before they became a mecca for fans of Baywatch.
-
-He likes awful music, 80s electronic experimental weird stuff.
-
-His wife is possibly worse at writing this sort of bumpf than he is.
-
-I will remember to change this before making the page live!
-
+My wife Veronica does the webpage side of things.
 

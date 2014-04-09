@@ -7,7 +7,7 @@ title: Turning over a new leaf
 cover: /images/ds19-300x218.jpg 
 ---
 
-![Citroen DS19 by the Pont Alexandre II]({{ site.url }}/images/ds19-300x218.jpg){:align="right"}
+![Citroen DS19 by the Pont Alexandre II]({{ site.url }}/images/ds19-300x218.jpg){:.floatright}
 Hello from the behind the scenes administrator, Veronica!  Tonight I bring you a new webpage for Peter's drawings.  After a while cogitating on how to implement my own custom gallery, I decided to go back to the convenience of Wordpress.
 <!--more-->
 

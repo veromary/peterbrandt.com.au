@@ -40,6 +40,16 @@ div.right img {
     float: right;
 }
 
+p img.floatright {
+      margin-left: 1em;
+      float: right;
+}
+
+p img.floatleft {
+      margin-right: 1em;
+      float: left;
+}
+
 /* #Media Queries
 ================================================== */
 

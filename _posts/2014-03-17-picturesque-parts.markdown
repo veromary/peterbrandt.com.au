@@ -9,7 +9,7 @@ cover: /images/nutbolt-300x202.jpg
 excerpt: How about drawing something really niche.  Something that Peter is really passionate about. Like, spark plugs.
 ---
 
-![Nut and bolt]({{ site.url }}/images/nutbolt-300x202.jpg){:align="right"}
+![Nut and bolt]({{ site.url }}/images/nutbolt-300x202.jpg){:.floatright}
 We had a conversation one night, about ideas for drawings.
 
 Peter often draws celebrities, which you might think would be popular.  But it takes all sorts, and celebrities are apt to do crazy things and their reputation rubs off on the picture to some extent.  Public regard for a particular celebrity may wax and wane erratically.

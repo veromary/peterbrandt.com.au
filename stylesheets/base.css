@@ -35,8 +35,8 @@
 		display: block; }
 	body {
 		line-height: 1; }
-	ol, ul {
-		list-style: none; }
+/*	ol, ul {
+		list-style: none; } */
 	blockquote, q {
 		quotes: none; }
 	blockquote:before, blockquote:after,
@@ -75,7 +75,7 @@
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; }
-	p img { margin: 0; }
+	p img { margin: 0; } 
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
 	em { font-style: italic; }
@@ -122,6 +122,7 @@
 	img.scale-with-grid {
 		max-width: 100%;
 		height: auto; }
+
 
 
 /* #Buttons

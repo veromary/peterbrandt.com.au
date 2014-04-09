@@ -16,6 +16,7 @@ title: Peter Brandt in Pastel and Charcoal
 <h3>For you or me or 50/50</h3>
 <p>I like to sell pictures. It's how I get money to keep drawing (and eating).</p>
 <p>You choose what happens with the drawing, who gets to keep it, who gets to profit and whether any prints are made.</p>
+<a href="{{ site.url }}/contact.html" class="button">Contact</a>
 </div>
 <div class="col-md-4">
 <h3>Enjoy your drawings!</h3>
@@ -27,7 +28,7 @@ title: Peter Brandt in Pastel and Charcoal
 </div>
 		<div class="col-md-8">
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <li class="post">
     <a href="{{ site.url }}{{ post.url }}" class="post-link {% if post.cover %}has-cover{% endif %}">
       {% if post.cover %}
@@ -45,18 +46,24 @@ title: Peter Brandt in Pastel and Charcoal
 </ul>
 
 <!-- Pagination links -->
-<nav class="pagination">
+<div class="pagination">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-      <a href="{{ site.url }}" class="previous">&laquo;</a>
+      <a href="{{ site.url }}" class="previous">Previous</a>
     {% else %}
-      <a href="{{ site.url }}/page" class="previous">&laquo;</a>
-    {% endif %}
+    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
   {% endif %}
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ site.url }}/page" class="next ">&raquo;</a>
+    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
   {% endif %}
-</nav>
+</div>
+
 
 </div>
 </div>

@@ -1,0 +1,25 @@
+---
+layout: core
+lightbox: true
+selz: true
+---
+
+<div class="page-header">
+  <h1>{{ page.title }} <small>{{ site.tagline }}</small></h1>
+</div>
+
+{% for pic in page.pictures %}
+  <div style="clear: both; margin: 1em 1em 1em 1em; padding: 1em 1em 1em 1em;">
+<p>   <a href="{{ site.url }}/images/{{ page.slug }}/{{ pic.imgfile }}" data-lightbox="{{ page.slug }}" title="{{ pic.label }}: {{ pic.caption }}"><img src="{{ site.url }}/images/{{ page.slug }}/sm/{{ pic.imgfile }}" alt="image" class="floatleft" /></a>
+   <strong>{{ pic.label }}</strong>
+   <br />{{ pic.caption }}</p>
+<p>
+{% if pic.selz %}
+   <a href="http://selz.co/{{ pic.selz }}" class="button">Buy now</a></p>
+{% endif %}
+  </div>
+{% endfor %}
+
+
+{{ content }}
+

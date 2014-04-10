@@ -47,6 +47,10 @@
 <link href="{{ site.url }}/stylesheets/lightbox.css" rel="stylesheet" />
 {% endif %}
 
+{% if page.selz %}
+<link href="//selzimg.s3.amazonaws.com/plugins/jquery/jquery.selz.min.css" rel="stylesheet">
+{% endif %}
+
 </head>
 <body>
 
@@ -122,9 +126,15 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script src="js/jquery-1.10.2.min.js"></script>
+
+{% if page.lightbox %}
 <script src="js/lightbox-2.6.min.js"></script>
+{% endif %}
 
+{% if page.selz %}
+<script src="//selzimg.s3.amazonaws.com/plugins/jquery/jquery.selz.min.js"></script>
 
+{% endif %}
 
 <!-- End Document
 ================================================== -->

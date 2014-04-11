@@ -9,8 +9,10 @@ selz: true
 </div>
 
 {% for pic in page.pictures %}
-  <div style="clear: both; margin: 1em 1em 1em 1em; padding: 1em 1em 1em 1em;">
-<p>   <a href="{{ site.url }}/images/{{ page.slug }}/{{ pic.imgfile }}" data-lightbox="{{ page.slug }}" title="{{ pic.label }}: {{ pic.caption }}"><img src="{{ site.url }}/images/{{ page.slug }}/sm/{{ pic.imgfile }}" alt="image" class="floatleft" /></a>
+  <div class="row">
+<div class="col-xs-6">
+<p>   <a href="{{ site.url }}/images/{{ page.slug }}/{{ pic.imgfile }}" data-lightbox="{{ page.slug }}" title="{{ pic.label }}: {{ pic.caption }}"><img src="{{ site.url }}/images/{{ page.slug }}/sm/{{ pic.imgfile }}" alt="image" class="floatright" /></a></div>
+<div class="col-xs-6">
    <strong>{{ pic.label }}</strong>
    <br />{{ pic.caption }}</p>
 <p>
@@ -18,6 +20,7 @@ selz: true
    <a href="http://selz.co/{{ pic.selz }}" class="button">Buy now</a></p>
 {% endif %}
   </div>
+</div>
 {% endfor %}
 
 

@@ -133,7 +133,12 @@
 
 {% if page.selz %}
 <script src="//selzimg.s3.amazonaws.com/plugins/jquery/jquery.selz.min.js"></script>
-
+<script>
+    jQuery.selz({
+        buttonBg: "#1C76A8"
+        buttonText: "#fff"
+    });
+</script>
 {% endif %}
 
 <!-- End Document

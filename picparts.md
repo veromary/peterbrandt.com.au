@@ -9,7 +9,7 @@ pictures:
     caption: which sparked off the rest
   - imgfile: flywheel.jpg
     label: Flywheel
-    caption: make up a pun about gravity or mass...
+    caption: one for the heavy metal fans
     selz: 1lCHPNp
   - imgfile: roundanstraight.jpg
     label: Sun and moon
@@ -25,7 +25,7 @@ pictures:
   - imgfile: p2.jpg
     label: Yellow zinc screws
     description: very handy little things
-    selz: RWd5dM
+    selz: 1iwJ1vt
 ---
 
 

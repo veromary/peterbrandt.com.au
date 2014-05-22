@@ -17,7 +17,15 @@ selz: true
    <br />{{ pic.caption }}</p>
 <p>
 {% if pic.selz %}
-   <a href="http://selz.co/{{ pic.selz }}" class="button">Buy now</a></p>
+<script data-selz-t="_selz-btn-default" data-selz-a="modal" data-selz-ct="ffffff" data-selz-cb="7482ab" data-selz-b="http://selz.co/{{ pic.selz }}">
+if (typeof _$elz === "undefined") { var _$elz = {}; }
+if (typeof _$elz.b === "undefined") { 
+_$elz.b = { e: document.createElement("script") }; 
+_$elz.b.e.src = "https://selz.com/embed/button"; 
+document.body.appendChild(_$elz.b.e); }
+</script>
+<a href="http://selz.co/1evurD9" target="_blank" class="_selz_nojs_link">Buy this on Selz</a>
+<a href="https://selz.com" target="_blank" class="_selz_nojs_link">Sell digital downloads on Selz</a>  </p>
 {% endif %}
   </div>
 </div>

@@ -24,8 +24,7 @@ pictures:
     selz: 1jFqW4c
   - imgfile: p2.jpg
     label: Yellow zinc screws
-    description: very handy little things
-    selz: 1iwJ1vt
+    caption: very handy little things
 ---
 
 

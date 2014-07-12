@@ -1,0 +1,57 @@
+---
+layout: core
+title: News and views
+---
+
+<h1> News and views </h1>
+
+<p>From the life of a father of five with a passion for drawing.</p>
+
+<div class="row">
+<div class="col-md-2">
+</div>
+		<div class="col-md-8">
+<ul class="posts">
+  {% for post in paginator.posts %}
+  <li class="post">
+    <a href="{{ site.url }}{{ post.url }}" class="post-link {% if post.cover %}has-cover{% endif %}">
+      {% if post.cover %}
+        <div class="post-cover" style="background-image: url({{ site.url }}{{ post.cover }});" /></div>
+      {% endif %}
+      <div class="mark"></div>
+      <h3 class="post-title">
+        {{ post.title }}<br />
+      </h3>
+      <span class="meta">Posted <time data-time="{{ post.date }}" title="{{ post.date }}">{{ post.date | date_to_string }}</time></span>
+      <p class="excerpt">{{ post.excerpt | strip_html | strip_newlines }}</p>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+<!-- Pagination links -->
+<div>
+<ul class="pager">
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+ <li class="previous">     <a href="{{ site.url }}/blog/" class="previous">&larr; Previous </a></li>
+    {% else %}
+<li class="previous">    <a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous &lt; &nbsp; </a></li>
+  {% endif %}
+  {% else %}
+  <li class="previous disabled"><a href="#">&larr; Previous</a></li>
+  {% endif %}
+<li class="active"><span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></a>
+  {% if paginator.next_page %}
+<li class="next">    <a href="/blog/page{{ paginator.next_page }}" class="next">Next &rarr;</a></li>
+  {% else %}
+<li class="next disabled"><a href="#"> Next &rarr;</a></li>
+  {% endif %}
+</ul>
+</div>
+
+
+</div>
+</div>
+
+

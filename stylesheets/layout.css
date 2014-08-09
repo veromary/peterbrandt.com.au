@@ -7,6 +7,12 @@
 * 6/20/2012
 */
 
+/* From MailChimp */
+
+#mc_embed_signup .asterisk {color:#c60; font-size:200%;}
+#mc_embed_signup .asterisk {top:25px; right:10px;}
+#mc_embed_signup .mc-field-group {width:96%;}
+
 /* Table of Content
 ==================================================
 	#Site Styles
@@ -186,6 +192,4 @@ only screen and (max-device-width : 320px){
       .posts .post-link:hover .post-cover {
         text-decoration: none;
         opacity: .6; }
-
-
 

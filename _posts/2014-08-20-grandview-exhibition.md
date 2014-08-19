@@ -8,6 +8,7 @@ cover: /images/icanread.jpg
 Peter has two works entered in the [Grandview Exhibition](http://www.bman.org.au/exhibitions/grandview) this year.
 
 The exhibition runs from 11th August  to 25th October.
+<!--more-->
 
 The Grandview Hotel is prominent on the Great Western Highway on the south side, just east of the main shopping area.  It is an easy walk from the train station.  
 

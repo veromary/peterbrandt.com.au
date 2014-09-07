@@ -1,6 +1,6 @@
 markdown: kramdown
 highlighter: pygments
-auto: true
+#auto: true
 
 #url: http://localhost:4000
 url: http://www.peterbrandt.com.au

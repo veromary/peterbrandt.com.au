@@ -12,9 +12,9 @@ The name **Avalon Prand** was coined to be a unique name for signing up for tumb
 	
 I have always enjoyed drawing, whether in pencil, ink or pastel. For a while I focussed on making bold black and white ink studies and lino cuts.
 
-My favourite artists include Alfonse Mucha.
+My favourite artists include Alfonse Mucha and Modigliani.
 
-I like listening to David Bowie, Yello, Yasuaki Shimizu, They Might Be Giants and many others.  Bach is great too.
+I like listening to Ryuichi Sakamoto, Scritti Politti, Camille, They Might Be Giants and many others.  Bach is great too.
 
 My wife Veronica does the webpage side of things.
 

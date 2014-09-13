@@ -2,8 +2,8 @@ markdown: kramdown
 highlighter: pygments
 #auto: true
 
-#url: http://localhost:4000
-url: http://www.peterbrandt.com.au
+url: http://localhost:4000
+#url: http://www.peterbrandt.com.au
 #url: http://veromary.github.io/peterbrandt.com.au
 
 excerpt_separator: <!--more-->

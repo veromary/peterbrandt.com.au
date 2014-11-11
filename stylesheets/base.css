@@ -51,12 +51,22 @@
 /* #Basic Styles
 ================================================== */
 	body {
-	background: #dddddd; 
+	background: #dfe5f7; 
 		font: 14px/21px "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #67655D;
+		color: #010511;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
+
+
+/*.navbar-default {
+   background-color: #9eacd6;
+   color: #ffffff;
+}*/
+
+.navbar-default .navbar-nav>li>a {
+   color: #5c6ea4;
+}
 
 
 /* #Typography

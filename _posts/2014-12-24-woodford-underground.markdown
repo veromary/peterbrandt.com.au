@@ -12,7 +12,7 @@ Peter started putting up old work in the tunnel underneath our local railway sta
 
 Well, the shelves in his studio can only take so much, and he's not going to stop drawing any time soon.  I tried cataloging all the pictures, but there are over a thousand of them.  Also, Peter's techniques are being refined all the time and it's just not sensible to hang on to everything.  Better to let them go find new homes.
 
-It is great to hear about where the pictures have ended up&emdash;just the other day someone received one as a Christmas gift from friends at work.  Some people leave notes saying thanks. Some leave notes on [facebook](http://www.facebook.com/AvalonPrand).  It all helps keep the motivation going.
+It is great to hear about where the pictures have ended up&mdash;just the other day someone received one as a Christmas gift from friends at work.  Some people leave notes saying thanks. Some leave notes on [facebook](http://www.facebook.com/AvalonPrand).  It all helps keep the motivation going.
 
 Another artist joined in briefly with a brightly painted square canvas looking for a new home.  I wonder what would happen if the notice board did get too busy to post portraits.  Maybe it would be time to try the next station along&mdash;a much longer walk, but still possible.
 

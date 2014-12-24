@@ -109,7 +109,7 @@ document.getElementById('ji-tumblr-url-tumblet-15').setAttribute('href', tumblr_
 
 <div class="row">
 <div class="col-sm-8 col-md-5">
-<h4>Latest in the Etsy shop window:</h4>
+<h4>Latest in the <a href="http://avalonprand.etsy.com">Etsy shop</a> window:</h4>
 <script type='text/javascript' src='https://www.etsy.com/assets/js/etsy_mini_shop.js'></script><script type='text/javascript'>new Etsy.Mini(7949240,'gallery',2,2,0,'https://www.etsy.com');</script>
 </div>
 
@@ -129,9 +129,23 @@ document.getElementById('ji-tumblr-url-tumblet-15').setAttribute('href', tumblr_
 <p>&nbsp;</p>
 <div class="row">
 <div class="col-sm-4">
-<p>
+<!-- <p>
 I keep drawing for fun and to fine tune my fingers.  This fills up the shelves in my studio with stacks of artworks in need of new homes.  Statistically, most pictures you see shared on <a href="http://facebook.com/AvalonPrand">facebook</a> and sites like that are available, <a href="mailto:peter@brandt.id.au?subject=How%20much%20is%20that%20picture%20in%20the%20window">just ask!</a>
-</p>
+</p> -->
+
+
+<div class='ji-tumblr-photos'><h4><a href="http://woodfordunderground.tumblr.com">Woodford Underground </a></h4><a id='ji-tumblr-url-etheldreda-1' href=''><img border='0' style='margin:0' id='ji-tumblr-photo-etheldreda-1' src='' alt='' /></a><a id='ji-tumblr-url-etheldreda-2' href=''><img border='0' style='margin:0' id='ji-tumblr-photo-etheldreda-2' src='' alt='' /></a>
+<div style="width:100%; font-size:10px; text-align:right"><a target="_blank" href="http://jiapps.com/free-stuff/tumblr-widget-for-your-website.html">tumblr photo widget by JI Apps</a></div>
+</div>
+<script type='text/javascript' src='http://woodfordunderground.tumblr.com/api/read/json?number=2&type=photo'></script>
+<script type='text/javascript'>
+document.getElementById('ji-tumblr-photo-etheldreda-1').setAttribute('src', tumblr_api_read.posts[0]['photo-url-250']);
+document.getElementById('ji-tumblr-url-etheldreda-1').setAttribute('href', tumblr_api_read.posts[0]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-etheldreda-2').setAttribute('src', tumblr_api_read.posts[1]['photo-url-250']);
+document.getElementById('ji-tumblr-url-etheldreda-2').setAttribute('href', tumblr_api_read.posts[1]['url-with-slug']);
+</script>
+
+
 </div>
 <div class="col-sm-4">
 <h4>Trailer hire</h4>

@@ -28,7 +28,7 @@ The problem with searching for open source database front ends is that "user fri
 
 Right now I have settled on [Xataface](http://xataface.com).  It is fairly technical, but quick to get going.  You need to know a lot about databases to really get it up and running.
 
-You can have a sneak peek at [work.peterbrandt.com.au](http://work.peterbrandt.com.au).  It is set up as a sort of front end, just to show the works themselves.  The back end includes information about sales and things to help with our financial accounting.
+You can have a sneak peek at [work.brandt.id.au](http://work.brandt.id.au).  It is set up as a sort of front end, just to show the works themselves.  The back end includes information about sales and things to help with our financial accounting.
 
 I hope to make a cut down template that could give other artists a head start towards making their own self-hosted art database.  Please pester me about it - somehow these grand plans seem to dilute over time.
 

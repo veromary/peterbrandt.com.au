@@ -1,0 +1,77 @@
+---
+layout: core
+title: EOFY Giveaway
+---
+
+<div class="col-lg-3 col-md-2"></div>
+<div class="col-lg-6 col-md-8">
+
+<h1>EOFY Giveaway 2015</h1>
+
+<img src="{{ site.url }}/images/eofygiveaway.jpg" class="img-responsive">
+
+<p>I have four framed portraits to give away.  Choose which one you would like and fill in your contact details and tell me why you should win.
+</p>
+
+<p>The portraits are:</p>
+<ul>
+<li><a href="http://avalonprand.tumblr.com/post/69059869177/marilyn">Marilyn Monroe</a></li>
+<li><a href="http://avalonprand.tumblr.com/post/56237320911/fangirl">Girl with a Fan</a></li>
+<li><a href="http://avalonprand.tumblr.com/post/48583294084/autumn-in-the-mountains-leura-station-photo">Leura Station in Autumn</a></li>
+<li><a href="http://avalonprand.tumblr.com/post/83374950517/at-leura-station">Leura Station seat</a></li>
+</ul>
+
+<p>Entries close on 30th June, and the four lucky winners will receive a 20"x24" gallery wrapped pastel drawing in July unless alternative arrangements are made.</p> 
+
+<p>Framed portraits are tricky to post, so please enter your Australian postcode so we can allow for transport for the winners.  Preference will be given to locations around Sydney, especially the Blue Mountains, but you can always make a case for travelling further afield in the comments box.</p>
+
+<form id="contactform" method="POST" class="form-horizontal">
+<div class="form-group">
+<div class="input-group" id="img_btn">
+<div class="col-sm-6">
+  <label style="float:right">
+Marilyn Monroe    
+<input type="radio" name="drawing" value="marilyn" />
+    <img src="{{ site.url }}/images/eofymm.jpg" align="right">
+  </label>
+  <label style="float:right">
+Fan Girl
+    <input type="radio" name="drawing" value="fangirl" />
+    <img src="{{ site.url }}/images/eofyfan.jpg">
+  </label>
+</div>
+<div class="col-sm-6">
+  <label>
+Autumn in the Mountains
+    <input type="radio" name="drawing" value="autumn" />
+    <img src="{{ site.url }}/images/eofyleuramist.jpg">
+  </label>
+  <label>
+Leura Station
+    <input type="radio" name="drawing" value="takeaseat" />
+    <img src="{{ site.url }}/images/eofyleuraseat.jpg">
+  </label>
+</div>
+</div>
+    <input type="text" class="form-control" name="name" placeholder="Your name">
+    <input type="email" class="form-control" name="_replyto" placeholder="Your email">
+    <input type="text" class="form-control" name="postcode" placeholder="Your Australian postcode">
+    <input type="hidden" class="form-control" name="_subject" value="Website contact" />
+    <textarea class="form-control" rows="4" name="message" placeholder="Your message"></textarea>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="joinlist" value="yesplease" /> Join our mailing list
+    </label>
+  </div>
+    <input type="text" name="_gotcha" style="display:none" />
+<input type="hidden" name="_next" value="{{ site.url }}/thanks.html" />
+    <button type="submit" class="btn btn-primary btn-lg">Enter now!</button>
+</div>
+</form>
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'peterjabrandt' + '@' + 'gmail' + '.' + 'com');
+</script>
+
+</div>
+

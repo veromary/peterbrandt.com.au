@@ -31,7 +31,7 @@ title: EOFY Giveaway
 <div class="col-sm-6">
   <label style="float:right">
 Marilyn Monroe    
-<input type="radio" name="drawing" value="marilyn" />
+<input type="radio" name="drawing" value="marilyn" required />
     <img src="{{ site.url }}/images/eofymm.jpg" align="right">
   </label>
   <label style="float:right">
@@ -53,9 +53,9 @@ Leura Station
   </label>
 </div>
 </div>
-    <input type="text" class="form-control" name="name" placeholder="Your name">
-    <input type="email" class="form-control" name="_replyto" placeholder="Your email">
-    <input type="text" class="form-control" name="postcode" placeholder="Your Australian postcode">
+    <input type="text" class="form-control" name="name" placeholder="Your name" required>
+    <input type="email" class="form-control" name="_replyto" placeholder="Your email" required>
+    <input type="text" class="form-control" name="postcode" placeholder="Your Australian postcode" required>
     <input type="hidden" class="form-control" name="_subject" value="Website contact" />
     <textarea class="form-control" rows="4" name="message" placeholder="Your message"></textarea>
   <div class="checkbox">

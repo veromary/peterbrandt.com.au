@@ -30,7 +30,7 @@ Share the giveaway:</p>
 <br />
 <br />
 
-<a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.peterbrandt.com.au%2Feofygiveaway.html&media=http%3A%2F%2Fwww.peterbrandt.com.au%2Fimages%2Feofygiveaway.jpg&description=Peter%26%23x27%3Bs%20EOFY%20Giveaway%202015" data-pin-do="buttonPin" data-pin-config="beside" data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a>
+<a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.peterbrandt.com.au%2Feofygiveaway.html&media=http%3A%2F%2Fwww.peterbrandt.com.au%2Fimages%2Feofygiveaway.jpg&description=EOFY%20Giveaway%202015%20-%204%20framed%20portraits%20by%20Peter%20Brandt" data-pin-do="buttonPin" data-pin-config="beside" data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a>
 <!-- Please call pinit.js only once per page -->
 <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
 

@@ -38,7 +38,7 @@ Share the giveaway:</p>
 
 <p>Or use your own means to share <a href="{{ site.url }}/eofygiveaway.html">the link to the Giveaway Page</a></p>
 
-<p>Please Print a <a href="{{ site.url }}/pdf/eofygiveaway.pdf">Flyer</a> and put it up everywhere.</p>
+<p>Please Print a <a href="{{ site.url }}/pdf/eofy2015.pdf">Flyer</a> and put it up everywhere.</p>
 
 </div>
 <div class="col-sm-4">

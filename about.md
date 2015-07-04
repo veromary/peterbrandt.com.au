@@ -18,3 +18,18 @@ I like listening to Ryuichi Sakamoto, Scritti Politti, Camille, They Might Be Gi
 
 My wife Veronica does the webpage side of things.
 
+If you like reading Artist Statements, you might like to try [500letters](http://www.500letters.org/form_15.php)
+
+#### Exhibitions
+
+* Winter at the Edge 2015
+* [Brunswick Arts](http://www.brunswickarts.com.au/2015.html) 1-10 May 2015
+* Autumn at the Edge 2015 (Highly Commended)
+* Braemar Gallery circa 2006
+* Ralph's Living Room Cafe circa 1995
+
+#### Artist Profiles
+
+* [Blue Thumb](http://www.bluethumb.com.au/peterbrandt)
+* [Etsy Shop](https://www.etsy.com/au/shop/AvalonPrand/about)
+

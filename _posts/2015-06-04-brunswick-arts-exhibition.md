@@ -14,15 +14,15 @@ Preserving the highlights of the great Melbourne Art Exhibition.
 Opening 1st May 6-9pm
 Exhibition 2nd May to 10th May
 
-#Avalon Prand 
+# Avalon Prand 
 
-###Peter Brandt
+### Peter Brandt
 
 The value in his work is more as an exercise; to him, the finished piece is incidental. 
 
 Peter's daily discipline produces prolific portraiture. Vindicated by an online appetite for consistent sources of content, people all over the world volunteering their faces for his habit. And a drawing archive of thousands to match. But even a cultivated habit requires courage to break. The struggle between being too conservative with colour, but hating to waste a drawing by being too crazy. This is his careful tightrope act to extract that elusive, effective technique.
 
-##Photos
+## Photos
 
 Spot Christina Ricci, Bjork, Alfred Hitchcock, Richard Attenborough, Frida Karlo, Shirley Temple, Lucille Ball, Audrey Hepburn, Andy Warhol, Grace Jones...
 
